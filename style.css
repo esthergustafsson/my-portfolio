@@ -13,7 +13,7 @@ img{
   max-width: 100%;
 }
 .header{
-  background-image: url("header.svg");
+  background-image: url("bilder/header.svg");
   text-align: end;
   background-repeat: no-repeat;
   background-position: center center;
@@ -145,7 +145,7 @@ a:hover {
  }
  .loop-kort2{
   display: flex;
-  background-image: url(mockup-loop.svg);
+  background-image: url(bilder/mockup-loop.svg);
   background-repeat: no-repeat;
   background-position: center right;
   width: 30%;
@@ -194,7 +194,7 @@ font-size: 20px;
  }
  .header{
 
-  background-image: url("headertillmobilen.svg");
+  background-image: url("bilder/headertillmobilen.svg");
   max-width: 100%;
   text-align:end;
   background-repeat: no-repeat;
