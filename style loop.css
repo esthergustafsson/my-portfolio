@@ -141,10 +141,11 @@ font-size: 20px;
  }
  
  .navbar{
+  gap: 10px;
+  align-items: start;
   font-size: 20px;
-  flex-direction:row
+  flex-direction:column
   
-
 
  }
 
@@ -152,8 +153,8 @@ font-size: 20px;
 font-size: 20px;
 padding-top: 90px;
 padding-bottom: 100px;
-padding-right: 140px;
 color: #3C3D22;
+text-align: center;
 
 }
 .header{
