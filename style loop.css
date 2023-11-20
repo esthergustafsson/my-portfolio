@@ -73,6 +73,7 @@ img{
   background-position: center center;
   padding: 100px 60px;
   animation: fadeIn 3s;
+  box-shadow: 10px 10px 20px lightgray
 
 }
 @keyframes fadeIn {
@@ -113,9 +114,31 @@ a:hover {
   font-weight: bold;
 }
 
+.loop-beskrivning{
+  display: flex;
+  margin: 0 auto;
+  background-color: #C2B9A7;
+  height: 600px;
+  width: 90%;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  border-radius: 7px;
+  box-shadow: 10px 10px 20px lightgray
+  
+}
 
-
+.loop-beskrivning .bakgrundstext{
+  width: 40%;
+  padding: 60px 0px 0px 60px;
  
+}
+.loop-beskrivning .uppgiftstext{
+  width: 40%;
+  padding: 50px 20px 30px 60px;
+  
+}
+
+
 
 
 
