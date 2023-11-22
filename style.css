@@ -183,6 +183,7 @@ a:hover {
 }
 .grow { 
   transition: all .2s ease-in-out; 
+  display: flex;
   }
   
   .grow:hover { 
@@ -268,12 +269,32 @@ a:hover {
 
 .grow2 { 
   transition: all .2s ease-in-out; 
+  display: flex;
   }
   
   .grow2:hover { 
   transform: scale(1.05); 
   }
  
+.footer{
+  border-top: 1px solid #000;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.footer a{
+  color: #ffffff;
+  justify-content: start;
+}
+
+.footer h1{
+font-weight: 600;
+font-size: 18px;
+}
 
 
 
@@ -323,7 +344,7 @@ font-size: 20px;
 
 }
 
-.loop-kort{
+.grow{
   flex-direction: column-reverse;
 }
 
@@ -340,29 +361,30 @@ font-size: 20px;
   border-radius: 7px 7px 0 0;
 }
 
-.loop-kort a{
+.grow a{
   text-align: center;
 }
 
-.loop-kort h1{
+.grow h1{
   padding: 30px 10px 0px 10px;
   text-align: center;
   font-size: 80px;
   border-radius: 0;
 }
-.loop-kort h2{
+.grow h2{
   width: 55%;
   font-size: 15px;
   margin: 0 auto;
   padding: 0px;
+  text-align: center;
 }
 
-.loop-kort a{
+.grow a{
   margin-top: 100px;
 }
 
   
-.pro-tech-kort{
+.grow2{
   flex-direction: column;
 }
 
@@ -379,17 +401,17 @@ font-size: 20px;
   border-radius: 7px 7px 0 0;
 }
 
-.pro-kort a{
+.grow2 a{
   text-align: center;
 }
 
-.pro-tech-kort h1{
+.grow2 h1{
   padding: 50px 0 0 0;
   text-align: center;
   font-size: 80px;
   border-radius: 0;
 }
-.pro-tech-kort h2{
+.grow2 h2{
   width: 55%;
   font-size: 15px;
   margin: 0 auto;
@@ -397,11 +419,33 @@ font-size: 20px;
   justify-content: center;
 }
 
-.pro-tech-kort a{
+.grow2 a{
   margin-top: 100px;
   text-align: center;
 }
+
+.footer{
+  padding: 20px 40px;
 }
+.footer .copyright{
+  font-size: 10px;
+  text-align: center;
+  width: 33%;
+
+}
+.footer .sociala-medier {
+  width: 40%;
+  text-align: center;
+  
+}
+.footer a{
+  justify-content: center;
+}
+.footer .kontakt{
+  display: none;
+}
+}
+
   
   
 

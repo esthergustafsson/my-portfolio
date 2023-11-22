@@ -114,11 +114,11 @@ a:hover {
   font-weight: bold;
 }
 
-.loop-beskrivning{
+.loop-beskrivning1{
   display: flex;
   margin: 0 auto;
   background-color: #C2B9A7;
-  height: 600px;
+  height: 500px;
   width: 90%;
   margin-top: 80px;
   margin-bottom: 60px;
@@ -127,16 +127,52 @@ a:hover {
   
 }
 
-.loop-beskrivning .bakgrundstext{
+.loop-beskrivning1 .bakgrundstext{
   width: 40%;
   padding: 60px 0px 0px 60px;
- 
 }
-.loop-beskrivning .uppgiftstext{
+
+.loop-beskrivning1 h3{
+  padding-bottom: 60px;
+  
+}
+
+.loop-beskrivning1 .uppgiftstext{
   width: 40%;
   padding: 50px 20px 30px 60px;
   
 }
+
+.footer{
+  border-top: 1px solid #000;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.footer a{
+  color: #ffffff;
+  justify-content: start;
+}
+
+.footer h1{
+font-weight: 600;
+font-size: 18px;
+}
+
+.video{
+text-align: center;
+
+}
+
+.navigering-video h1{
+  text-align: center;
+  padding: 50px;
+}
+
 
 
 
@@ -147,21 +183,9 @@ a:hover {
 
 
 @media screen and (max-width: 800px) {
-  .header h1 {
-    font-size: 50px;
-  }
-  .header h2{
-    font-size: 10px;
-  }
-
-  .header h3 {
-font-size: 20px;
-  }
+ 
 
 
- .projektbild{
-  width: 100%;
- }
  
  .navbar{
   gap: 10px;
@@ -189,8 +213,67 @@ background-repeat: no-repeat;
 animation: fadeIn 3s;
 
 }
+.loop-beskrivning1{
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #C2B9A7;
+  height: 860px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  border-radius: 7px;
+  box-shadow: 10px 10px 20px lightgray
+  
+}
+.loop-beskrivning1 .bakgrundstext{
+  font-size: 14px;
+  width: 100%;
+  padding: 50px 25px;
+  text-align: center;
+}
+.loop-beskrivning1 .uppgiftstext{
+  font-size: 14px;
+  width: 100%;
+  padding: 0 25px;
+  text-align: center;
+}
 
-  }
+
+.loop-beskrivning1 .uppgiftstext{
+  font-size: 14px;
+  width: 100%;
+}
+.navigering-video h2{
+  text-align: center;
+}
+.video{
+  padding: 22px;
+
+}
+
+.footer{
+  padding: 20px 40px;
+}
+.footer .copyright{
+  font-size: 10px;
+  text-align: center;
+  width: 33%;
+
+}
+.footer .sociala-medier {
+  width: 40%;
+  text-align: center;
+  
+}
+.footer a{
+  justify-content: center;
+}
+.footer .kontakt{
+  display: none;
+}
+
+
+}
+
 
   
    
