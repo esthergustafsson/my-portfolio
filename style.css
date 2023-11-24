@@ -87,6 +87,10 @@ img{
   text-decoration: underline;
 }
 
+.hem:hover{
+  text-decoration-color: rgb(205, 189, 177);
+}
+
 
 a {
   color: rgb(0, 0, 0);
@@ -243,6 +247,7 @@ a:hover {
  
 
 }
+
 
 
 

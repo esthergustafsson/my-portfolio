@@ -99,6 +99,9 @@ img{
   text-decoration: underline;
 }
 
+.projekt:hover{
+  color: rgb(205, 189, 177);
+}
 
 a {
   color: rgb(0, 0, 0);
@@ -112,13 +115,18 @@ a:hover {
   color: rgb(205, 189, 177);
   transform: scale(1);
   font-weight: bold;
+  text-decoration: none;
+ 
 }
 
 .loop-beskrivning1{
+  
+  justify-content: center;
+  align-items: center;
   display: flex;
   margin: 0 auto;
   background-color: #C2B9A7;
-  height: 500px;
+  height: 450px;
   width: 90%;
   margin-top: 80px;
   margin-bottom: 60px;
@@ -129,19 +137,23 @@ a:hover {
 
 .loop-beskrivning1 .bakgrundstext{
   width: 40%;
-  padding: 60px 0px 0px 60px;
+  padding-right: 60px;
+  border-right: 1px solid #000;
 }
 
-.loop-beskrivning1 h3{
-  padding-bottom: 60px;
+.loop-beskrivning1 p{
+  padding-bottom: 30px;
   
 }
 
 .loop-beskrivning1 .uppgiftstext{
   width: 40%;
-  padding: 50px 20px 30px 60px;
-  
+  padding-left: 60px; 
 }
+
+
+
+
 
 .footer{
   border-top: 1px solid #000;
@@ -217,31 +229,40 @@ animation: fadeIn 3s;
   flex-direction: column;
   margin: 0 auto;
   background-color: #C2B9A7;
-  height: 860px;
+  height: 870px;
   margin-top: 80px;
   margin-bottom: 60px;
   border-radius: 7px;
-  box-shadow: 10px 10px 20px lightgray
+  box-shadow: 10px 10px 20px lightgray;
+  padding-left: 30px;
+  padding-right: 30px;
   
 }
+
 .loop-beskrivning1 .bakgrundstext{
   font-size: 14px;
   width: 100%;
-  padding: 50px 25px;
   text-align: center;
+  padding: 0;
+  border-right: none;
 }
 .loop-beskrivning1 .uppgiftstext{
   font-size: 14px;
   width: 100%;
-  padding: 0 25px;
   text-align: center;
+  padding: 0;
+}
+
+.loop-beskrivning1 p{
+  padding-bottom: 50px;
+  border-bottom:  1px solid #000;
+}
+
+.loop-beskrivning1 h1{
+  padding-top: 20px;
 }
 
 
-.loop-beskrivning1 .uppgiftstext{
-  font-size: 14px;
-  width: 100%;
-}
 .navigering-video h2{
   text-align: center;
 }
@@ -270,9 +291,12 @@ animation: fadeIn 3s;
 .footer .kontakt{
   display: none;
 }
+ }
 
 
-}
+
+
+
 
 
   
